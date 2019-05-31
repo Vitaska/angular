@@ -19,7 +19,6 @@ export class ThreeCompComponent implements OnInit {
   onClick(someText) {
 
     const newTitle = this.myTitle + ' ' + someText;
-
     this.returnText.emit(newTitle);
 
   }
